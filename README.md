@@ -1,8 +1,6 @@
 # Aspose.JMAP FOSS for .NET
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![NuGet version](https://img.shields.io/nuget/v/Aspose.JMAP.FOSS.svg)](https://www.nuget.org/packages/Aspose.JMAP.FOSS/) [![Contributors](https://img.shields.io/github/contributors/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET.svg)](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET/graphs/contributors)
-
-[![Aspose.JMAP FOSS for .NET](https://products.aspose.org/media/jmap/net/banner-readme.png)](https://products.aspose.org/jmap/net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Contributors](https://img.shields.io/github/contributors/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET.svg)](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET/graphs/contributors)
 
 Aspose.JMAP FOSS for .NET is a free, open source JMAP client library for .NET — a C# toolkit for
 talking to a [JMAP](https://jmap.io) mail server over HTTP: [RFC 8620](https://www.rfc-editor.org/rfc/rfc8620)
@@ -187,16 +185,10 @@ raw method calls for `SendRequestAsync`. Errors surface as `JmapNetworkException
 and `JmapProtocolException` (a JMAP method-level error); per-item `Set` failures are returned as
 data on the result object rather than thrown.
 
-The full protocol/API reference, rendered from the same specs that drive generation, is
-[`docs/api-reference.md`](../../docs/api-reference.md) at the repository root.
+The protocol/API reference is generated from the same specifications that drive this library.
 
 ## Documentation & Resources
 
-- **[Getting started guide](https://docs.aspose.org/jmap/net/)** — installation and walkthroughs.
-- **[API reference](https://reference.aspose.org/jmap/net/)** — browsable reference for the public types.
-- **[How-to guides & FAQ](https://kb.aspose.org/jmap/net/)** — task-focused answers.
-- **[Protocol/API reference](../../docs/api-reference.md)** — the in-repo reference rendered from the specs.
-- **[Changelog](../../CHANGELOG.md)**, **[Contributing guide](../../CONTRIBUTING.md)**, **[Security policy](../../SECURITY.md)**.
 - Found a bug or have a feature request? [Open an issue](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET/issues) on GitHub.
 
 ## Scope and Limitations
