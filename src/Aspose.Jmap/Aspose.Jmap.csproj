@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Aspose.Jmap</RootNamespace>
+    <AssemblyName>Aspose.Jmap</AssemblyName>
+    <PackageId>Aspose.JMAP.FOSS</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Aspose</Authors>
+    <Company>Aspose</Company>
+    <Product>Aspose.JMAP FOSS for .NET</Product>
+    <Description>Open-source JMAP (RFC 8620 Core / RFC 8621 Mail + EmailSubmission) client library with an Aspose.Email-style API.</Description>
+    <Copyright>Copyright (c) Aspose</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>jmap;rfc8620;rfc8621;email;mail;client;aspose</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
